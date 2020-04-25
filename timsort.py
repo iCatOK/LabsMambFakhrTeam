@@ -1,7 +1,7 @@
 import random
 import time
 
-minrun = 30
+minrun = 32
 
 
 def ins_sort(array, start, end):
