@@ -69,7 +69,8 @@ int main()
 	start = clock();
 	if (!enterData(&a, k)) return 0;
 	end = clock();
-	printf("Время работы ввода данных:  %1.10f\n\n", (float)(end - start) / CLOCKS_PER_SEC);
+	printf("Время работы ввода данных:  %1.10f\n", (float)(end - start) / CLOCKS_PER_SEC);
+	printf("Место, занимаемое стеком:  %d байт\n\n", sizeof(a));
 
 	//------------------
 	//2-добавить элемент
