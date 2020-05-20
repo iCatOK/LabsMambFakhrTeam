@@ -1,0 +1,7 @@
+﻿  saod_stack_2_0.cpp
+  sllist.c
+  stack.c
+saod_stack_2_0.obj : error LNK2001: неразрешенный внешний символ ""unsigned int __cdecl StackCount(struct STACK *)" (?StackCount@@YAIPAUSTACK@@@Z)"
+    Указание на символы, которые определены и могут подойти:
+      _StackCount
+D:\DEV\C++\Projects\4 sem\SAOd\saod_stack_2_0\Release\saod_stack_2_0.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

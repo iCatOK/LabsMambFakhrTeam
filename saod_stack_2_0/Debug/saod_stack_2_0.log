@@ -1,0 +1,4 @@
+﻿  saod_stack_2_0.cpp
+D:\DEV\C++\Projects\4 sem\SAOd\saod_stack_2_0\saod_stack_2_0.cpp(54,6): warning C4101: c: неиспользованная локальная переменная
+D:\DEV\C++\Projects\4 sem\SAOd\saod_stack_2_0\saod_stack_2_0.cpp(136,38): warning C4018: <: несоответствие типов со знаком и без знака
+  saod_stack_2_0.vcxproj -> D:\DEV\C++\Projects\4 sem\SAOd\saod_stack_2_0\Debug\saod_stack_2_0.exe
