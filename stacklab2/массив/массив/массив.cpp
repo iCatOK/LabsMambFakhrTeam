@@ -5,6 +5,7 @@
 #include <ctime>
 using namespace std;
 unsigned int startvvod, endvvod, startdelete, enddelete, start1, end1, startadd,endadd,enddel,startdel;
+int MAX = 150;
 struct power
 {
 	 string country;
@@ -30,7 +31,7 @@ void vvod(power* a)
 			cout << "Файл не может быть открыт!\n"; // сообщить об этом
 		else {
 			int i = 0;
-			while(fin.good())
+			while(fin.good() && i < MAX)
 			{				
 				getline(fin, a[i].country, ',');
 				if (a[i].country[0] == '\"')
@@ -108,7 +109,7 @@ int main()
 	SetConsoleOutputCP(1251);
 	setlocale(LC_ALL, "rus");
 	//max 1048576
-	power* a = new power[1048578];
+	power* a = new power[MAX];
 	startvvod = clock();
 	vvod(a);
 	endvvod = clock();
